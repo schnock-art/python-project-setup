@@ -1,0 +1,140 @@
+************* Module main
+main.py:25:22: C0303: Trailing whitespace (trailing-whitespace)
+main.py:26:35: C0303: Trailing whitespace (trailing-whitespace)
+main.py:27:89: C0303: Trailing whitespace (trailing-whitespace)
+main.py:28:46: C0303: Trailing whitespace (trailing-whitespace)
+main.py:38:0: C0303: Trailing whitespace (trailing-whitespace)
+main.py:61:0: C0301: Line too long (119/100) (line-too-long)
+main.py:68:0: C0303: Trailing whitespace (trailing-whitespace)
+main.py:80:0: C0303: Trailing whitespace (trailing-whitespace)
+main.py:87:0: C0301: Line too long (124/100) (line-too-long)
+main.py:91:0: C0301: Line too long (124/100) (line-too-long)
+main.py:96:0: C0303: Trailing whitespace (trailing-whitespace)
+main.py:138:0: C0301: Line too long (122/100) (line-too-long)
+main.py:143:0: C0303: Trailing whitespace (trailing-whitespace)
+main.py:153:0: C0301: Line too long (108/100) (line-too-long)
+main.py:155:0: C0301: Line too long (131/100) (line-too-long)
+main.py:156:0: C0301: Line too long (125/100) (line-too-long)
+main.py:159:39: C0303: Trailing whitespace (trailing-whitespace)
+main.py:160:35: C0303: Trailing whitespace (trailing-whitespace)
+main.py:161:41: C0303: Trailing whitespace (trailing-whitespace)
+main.py:63:35: W1401: Anomalous backslash in string: '\s'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+main.py:63:57: W1401: Anomalous backslash in string: '\s'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+main.py:24:0: C0115: Missing class docstring (missing-class-docstring)
+main.py:24:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+main.py:60:4: C0116: Missing function or method docstring (missing-function-docstring)
+main.py:61:26: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+main.py:74:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+main.py:76:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+main.py:78:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+main.py:103:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+main.py:105:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+main.py:107:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+main.py:110:16: W0719: Raising too general exception: Exception (broad-exception-raised)
+main.py:112:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+main.py:145:4: C0116: Missing function or method docstring (missing-function-docstring)
+main.py:65:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
+main.py:67:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
+************* Module new_project_files.main
+new_project_files\main.py:21:0: C0304: Final newline missing (missing-final-newline)
+new_project_files\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+new_project_files\main.py:7:0: W0611: Unused dotenv_values imported from dotenv (unused-import)
+************* Module folder_structure
+new_project_files\utilities\folder_structure.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+new_project_files\utilities\folder_structure.py:7:8: W0621: Redefining name 'start_path' from outer scope (line 64) (redefined-outer-name)
+new_project_files\utilities\folder_structure.py:11:8: W0621: Redefining name 'output_path' from outer scope (line 84) (redefined-outer-name)
+new_project_files\utilities\folder_structure.py:45:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+new_project_files\utilities\folder_structure.py:87:8: C0103: Constant name "print_only" doesn't conform to UPPER_CASE naming style (invalid-name)
+new_project_files\utilities\folder_structure.py:92:8: C0103: Constant name "output_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+utilities\folder_structure.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+utilities\folder_structure.py:7:8: W0621: Redefining name 'start_path' from outer scope (line 64) (redefined-outer-name)
+utilities\folder_structure.py:11:8: W0621: Redefining name 'output_path' from outer scope (line 84) (redefined-outer-name)
+utilities\folder_structure.py:45:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+utilities\folder_structure.py:87:8: C0103: Constant name "print_only" doesn't conform to UPPER_CASE naming style (invalid-name)
+utilities\folder_structure.py:92:8: C0103: Constant name "output_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+utilities\folder_structure.py:1:0: R0801: Similar lines in 2 files
+==folder_structure:[21:99]
+==folder_structure:[21:99]
+    if ignored_folders is None:
+        ignored_folders = []
+    if ignored_extensions is None:
+        ignored_extensions = []
+
+    output_lines = []
+
+    for root, dirs, files in os.walk(start_path, topdown=True):
+        dirs[:] = [
+            d for d in dirs if d not in ignored_folders
+        ]  # Modify dirs in place to ignore specified folders
+        level = root.replace(start_path, "").count(os.sep)
+        indent = " " * 4 * level
+        output_lines.append(f"{indent}{os.path.basename(root)}/")
+
+        subindent = " " * 4 * (level + 1)
+        for f in files:
+            if not any(f.endswith(ext) for ext in ignored_extensions):
+                output_lines.append(f"{subindent}{f}")
+
+    output_str = "\n".join(output_lines)
+
+    if output_path is not None:
+        with open(output_path, "w") as f:
+            f.write(output_str)
+    else:
+        print(output_str)  # Print to console
+
+
+if __name__=="__main__":
+    ### Get args from command line
+    # Standard Library
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--start_path", type=str, default=None)
+    parser.add_argument("--ignored_folders", type=str, default=None)
+    parser.add_argument("--ignored_extensions", type=str, default=None)
+    parser.add_argument("--output_path", type=str, default="utilities/results/folder_structure.txt")
+    parser.add_argument("--print_only", type=bool, default=False)
+    args = parser.parse_args()
+
+    if args.start_path is None:
+        start_path = os.path.join(
+        os.path.dirname(__file__), "..")
+    else:
+        start_path = args.start_path
+
+    if args.ignored_folders is None:
+        ignored_folders = [
+            "__pycache__",
+            ".git",
+            ".pytest_cache",
+            ".mypy_cache",
+        ]
+    else:
+        ignored_folders = args.ignored_folders
+
+    if args.ignored_extensions is None:
+        ignored_extensions = [".pyc", ".log"]
+    else:
+        ignored_extensions = args.ignored_extensions
+
+    output_path = args.output_path
+
+    if args.print_only is None:
+        print_only = False
+    else:
+        print_only = args.print_only
+
+    if print_only:
+        output_path = None
+
+    print_folder_structure(
+        start_path=start_path,
+        ignored_folders=ignored_folders,
+        ignored_extensions=ignored_extensions,
+        output_path=output_path,
+    ) (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 7.28/10 (previous run: 7.28/10, +0.00)
+
