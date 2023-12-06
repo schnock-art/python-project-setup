@@ -27,7 +27,7 @@ home = expanduser("~")
 class ProjectSetupManager:
     def __init__(self,
                  new_env_name: str,
-                 target_dir:str=r'tests\test_new_python_proyect',
+                 target_dir:str,
                  if_env_exists: str="use_existing",
                  if_dir_exists: str="use_existing",
                  additional_requirements: str=None
@@ -46,7 +46,10 @@ class ProjectSetupManager:
         self.if_env_exists = if_env_exists
         self.if_dir_exists = if_dir_exists
         self.new_env_name = new_env_name
-        self.target_dir = target_dir
+        if target_dir is None:
+            self.target_dir = os.path.join(os.getcwd(),new_env_name)
+        else:
+            self.target_dir = target_dir
         self.env_file = 'environment.yml'
         self.requirements_file = 'requirements.txt'
         self.additional_requirements = additional_requirements
@@ -174,9 +177,9 @@ def main():
     import argparse
     parser = argparse.ArgumentParser(description='Setup a new Python project.')
     parser.add_argument('--new_env_name', type=str, help='Name of the new Conda environment to be created.')
-    parser.add_argument('--target_dir', type=str, help='Target directory for the new project.')
-    parser.add_argument('--if_env_exists', type=str, default="replace", help='What to do if the Conda environment already exists.')
-    parser.add_argument('--if_dir_exists', type=str, default="replace", help='What to do if the target directory already exists.')
+    parser.add_argument('--target_dir', type=str, default=None, help='Target directory for the new project.')
+    parser.add_argument('--if_env_exists', type=str, default="interrupt", help='What to do if the Conda environment already exists.')
+    parser.add_argument('--if_dir_exists', type=str, default="interrupt", help='What to do if the target directory already exists.')
     parser.add_argument('--additional_requirements', type=str, default=None, help='Additional requirements to be installed.')
     args = parser.parse_args()
     ProjectSetupManager(

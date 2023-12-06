@@ -26,6 +26,11 @@ prepare-commit:
 	utilities\pytest.bat
 	git add *
 
+prepare-commit-build-upload:
+	make prepare-commit
+	make package-build
+	make twine-upload-test
+
 create-new-project:
 	python src/python_project_setup/main.py --new_env_name test-env-name --target_dir "C:/Users/jange/Python Scripts/test_new_python_proyect/" --if_env_exists replace
 

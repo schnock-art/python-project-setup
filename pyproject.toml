@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python_project_setup"
-version = "0.0.5"
+version = "0.0.6"
 authors = [
   { name="Schnock", email="schnock.art@gmail.com" },
 ]

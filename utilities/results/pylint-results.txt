@@ -51,116 +51,50 @@ build\lib\python_project_setup\new_project_files\utilities\folder_structure.py:1
 build\lib\python_project_setup\new_project_files\utilities\folder_structure.py:45:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
 build\lib\python_project_setup\new_project_files\utilities\folder_structure.py:87:8: C0103: Constant name "print_only" doesn't conform to UPPER_CASE naming style (invalid-name)
 build\lib\python_project_setup\new_project_files\utilities\folder_structure.py:92:8: C0103: Constant name "output_path" doesn't conform to UPPER_CASE naming style (invalid-name)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:84:0: C0301: Line too long (119/100) (line-too-long)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:110:0: C0301: Line too long (124/100) (line-too-long)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:114:0: C0301: Line too long (124/100) (line-too-long)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:161:0: C0301: Line too long (122/100) (line-too-long)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:176:0: C0301: Line too long (108/100) (line-too-long)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:178:0: C0301: Line too long (131/100) (line-too-long)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:179:0: C0301: Line too long (130/100) (line-too-long)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:180:0: C0301: Line too long (125/100) (line-too-long)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:27:0: C0115: Missing class docstring (missing-class-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:27:0: R0902: Too many instance attributes (11/7) (too-many-instance-attributes)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:28:4: R0913: Too many arguments (6/5) (too-many-arguments)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:66:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:68:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:70:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:73:16: W0719: Raising too general exception: Exception (broad-exception-raised)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:75:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:77:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:79:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:83:4: C0116: Missing function or method docstring (missing-function-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:84:26: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:97:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:99:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:101:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:126:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:128:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:130:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:133:16: W0719: Raising too general exception: Exception (broad-exception-raised)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:135:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:168:4: C0116: Missing function or method docstring (missing-function-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:88:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:90:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:173:0: C0116: Missing function or method docstring (missing-function-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:174:4: C0415: Import outside toplevel (argparse) (import-outside-toplevel)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\main.py:7:0: W0611: Unused import platform (unused-import)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\new_project_files\main.py:21:0: C0304: Final newline missing (missing-final-newline)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\new_project_files\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\new_project_files\main.py:7:0: W0611: Unused dotenv_values imported from dotenv (unused-import)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\new_project_files\__init__.py:18:0: C0304: Final newline missing (missing-final-newline)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\new_project_files\__init__.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\new_project_files\utilities\folder_structure.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\new_project_files\utilities\folder_structure.py:7:8: W0621: Redefining name 'start_path' from outer scope (line 64) (redefined-outer-name)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\new_project_files\utilities\folder_structure.py:11:8: W0621: Redefining name 'output_path' from outer scope (line 84) (redefined-outer-name)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\new_project_files\utilities\folder_structure.py:45:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\new_project_files\utilities\folder_structure.py:87:8: C0103: Constant name "print_only" doesn't conform to UPPER_CASE naming style (invalid-name)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\src\python_project_setup\new_project_files\utilities\folder_structure.py:92:8: C0103: Constant name "output_path" doesn't conform to UPPER_CASE naming style (invalid-name)
-************* Module test_project_setup_manager
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:46:0: C0301: Line too long (151/100) (line-too-long)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:64:0: C0301: Line too long (114/100) (line-too-long)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:66:0: C0301: Line too long (128/100) (line-too-long)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:19:0: C0116: Missing function or method docstring (missing-function-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:19:46: W0621: Redefining name 'setup_manager' from outer scope (line 11) (redefined-outer-name)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:23:11: C0121: Comparison 'setup_manager.new_env_exists == True' should be 'setup_manager.new_env_exists is True' if checking for the singleton value True, or 'setup_manager.new_env_exists' if testing for truthiness (singleton-comparison)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:25:0: C0116: Missing function or method docstring (missing-function-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:25:47: W0621: Redefining name 'setup_manager' from outer scope (line 11) (redefined-outer-name)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:29:11: C0121: Comparison 'setup_manager.new_env_exists == False' should be 'setup_manager.new_env_exists is False' if checking for the singleton value False, or 'not setup_manager.new_env_exists' if testing for falsiness (singleton-comparison)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:31:42: W0621: Redefining name 'setup_manager' from outer scope (line 11) (redefined-outer-name)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:36:0: C0116: Missing function or method docstring (missing-function-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:36:34: W0621: Redefining name 'setup_manager' from outer scope (line 11) (redefined-outer-name)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:41:37: W0621: Redefining name 'setup_manager' from outer scope (line 11) (redefined-outer-name)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:52:4: W0612: Unused variable 'mock_copytree' (unused-variable)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:69:0: C0116: Missing function or method docstring (missing-function-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:69:31: W0621: Redefining name 'setup_manager' from outer scope (line 11) (redefined-outer-name)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:74:0: C0116: Missing function or method docstring (missing-function-docstring)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:74:36: W0621: Redefining name 'setup_manager' from outer scope (line 11) (redefined-outer-name)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:2:0: W0611: Unused MagicMock imported from unittest.mock (unused-import)
-dist\python_project_setup-0.0.4\python_project_setup-0.0.4\tests\test_project_setup_manager.py:2:0: W0611: Unused patch imported from unittest.mock (unused-import)
-src\python_project_setup\main.py:84:0: C0301: Line too long (119/100) (line-too-long)
-src\python_project_setup\main.py:110:0: C0301: Line too long (124/100) (line-too-long)
-src\python_project_setup\main.py:114:0: C0301: Line too long (124/100) (line-too-long)
-src\python_project_setup\main.py:161:0: C0301: Line too long (122/100) (line-too-long)
-src\python_project_setup\main.py:176:0: C0301: Line too long (108/100) (line-too-long)
-src\python_project_setup\main.py:178:0: C0301: Line too long (131/100) (line-too-long)
-src\python_project_setup\main.py:179:0: C0301: Line too long (130/100) (line-too-long)
-src\python_project_setup\main.py:180:0: C0301: Line too long (125/100) (line-too-long)
+************* Module src.python_project_setup.main
+src\python_project_setup\main.py:87:0: C0301: Line too long (119/100) (line-too-long)
+src\python_project_setup\main.py:113:0: C0301: Line too long (124/100) (line-too-long)
+src\python_project_setup\main.py:117:0: C0301: Line too long (124/100) (line-too-long)
+src\python_project_setup\main.py:164:0: C0301: Line too long (122/100) (line-too-long)
+src\python_project_setup\main.py:179:0: C0301: Line too long (108/100) (line-too-long)
+src\python_project_setup\main.py:180:0: C0301: Line too long (109/100) (line-too-long)
+src\python_project_setup\main.py:181:0: C0301: Line too long (133/100) (line-too-long)
+src\python_project_setup\main.py:182:0: C0301: Line too long (132/100) (line-too-long)
+src\python_project_setup\main.py:183:0: C0301: Line too long (125/100) (line-too-long)
 src\python_project_setup\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 src\python_project_setup\main.py:27:0: C0115: Missing class docstring (missing-class-docstring)
 src\python_project_setup\main.py:27:0: R0902: Too many instance attributes (11/7) (too-many-instance-attributes)
 src\python_project_setup\main.py:28:4: R0913: Too many arguments (6/5) (too-many-arguments)
-src\python_project_setup\main.py:66:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:68:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:70:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:73:16: W0719: Raising too general exception: Exception (broad-exception-raised)
-src\python_project_setup\main.py:75:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:77:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:79:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:83:4: C0116: Missing function or method docstring (missing-function-docstring)
-src\python_project_setup\main.py:84:26: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
-src\python_project_setup\main.py:97:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:99:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:101:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:126:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:128:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:130:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:133:16: W0719: Raising too general exception: Exception (broad-exception-raised)
-src\python_project_setup\main.py:135:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-src\python_project_setup\main.py:168:4: C0116: Missing function or method docstring (missing-function-docstring)
-src\python_project_setup\main.py:88:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
-src\python_project_setup\main.py:90:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
-src\python_project_setup\main.py:173:0: C0116: Missing function or method docstring (missing-function-docstring)
-src\python_project_setup\main.py:174:4: C0415: Import outside toplevel (argparse) (import-outside-toplevel)
+src\python_project_setup\main.py:69:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:71:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:73:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:76:16: W0719: Raising too general exception: Exception (broad-exception-raised)
+src\python_project_setup\main.py:78:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:80:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:82:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:86:4: C0116: Missing function or method docstring (missing-function-docstring)
+src\python_project_setup\main.py:87:26: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+src\python_project_setup\main.py:100:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:102:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:104:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:129:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:131:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:133:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:136:16: W0719: Raising too general exception: Exception (broad-exception-raised)
+src\python_project_setup\main.py:138:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:171:4: C0116: Missing function or method docstring (missing-function-docstring)
+src\python_project_setup\main.py:91:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
+src\python_project_setup\main.py:93:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
+src\python_project_setup\main.py:176:0: C0116: Missing function or method docstring (missing-function-docstring)
+src\python_project_setup\main.py:177:4: C0415: Import outside toplevel (argparse) (import-outside-toplevel)
 src\python_project_setup\main.py:7:0: W0611: Unused import platform (unused-import)
+************* Module src.python_project_setup.new_project_files.main
 src\python_project_setup\new_project_files\main.py:21:0: C0304: Final newline missing (missing-final-newline)
 src\python_project_setup\new_project_files\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 src\python_project_setup\new_project_files\main.py:7:0: W0611: Unused dotenv_values imported from dotenv (unused-import)
+************* Module src.python_project_setup.new_project_files.__init__
 src\python_project_setup\new_project_files\__init__.py:18:0: C0304: Final newline missing (missing-final-newline)
+************* Module src.python_project_setup.new_project_files
 src\python_project_setup\new_project_files\__init__.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 src\python_project_setup\new_project_files\utilities\folder_structure.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 src\python_project_setup\new_project_files\utilities\folder_structure.py:7:8: W0621: Redefining name 'start_path' from outer scope (line 64) (redefined-outer-name)
@@ -193,6 +127,7 @@ tests\test_project_setup_manager.py:74:0: C0116: Missing function or method docs
 tests\test_project_setup_manager.py:74:36: W0621: Redefining name 'setup_manager' from outer scope (line 11) (redefined-outer-name)
 tests\test_project_setup_manager.py:2:0: W0611: Unused MagicMock imported from unittest.mock (unused-import)
 tests\test_project_setup_manager.py:2:0: W0611: Unused patch imported from unittest.mock (unused-import)
+************* Module utilities.folder_structure
 utilities\folder_structure.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 utilities\folder_structure.py:7:8: W0621: Redefining name 'start_path' from outer scope (line 64) (redefined-outer-name)
 utilities\folder_structure.py:11:8: W0621: Redefining name 'output_path' from outer scope (line 84) (redefined-outer-name)
@@ -200,43 +135,9 @@ utilities\folder_structure.py:45:13: W1514: Using open without explicitly specif
 utilities\folder_structure.py:87:8: C0103: Constant name "print_only" doesn't conform to UPPER_CASE naming style (invalid-name)
 utilities\folder_structure.py:92:8: C0103: Constant name "output_path" doesn't conform to UPPER_CASE naming style (invalid-name)
 utilities\folder_structure.py:1:0: R0801: Similar lines in 2 files
-==python_project_setup.main:[14:191]
-==python_project_setup.main:[14:191]
-config_path = os.path.join(os.path.dirname(__file__), 'logging.conf')
-logging.config.fileConfig(config_path, disable_existing_loggers=False)
-
-
-# This will get the root logger since no logger in the configuration has
-# this name.
-
-home = expanduser("~")
-# Load environment variables
-# (.env is not on git nor project folder, so copilot will not be able to
-# find it)
-
-class ProjectSetupManager:
-    def __init__(self,
-                 new_env_name: str,
-                 target_dir:str=r'tests\test_new_python_proyect',
-                 if_env_exists: str="use_existing",
-                 if_dir_exists: str="use_existing",
-                 additional_requirements: str=None
-        )->None:
-        # get root logger
-        # the __name__ resolve to "main" since we are at the root of the project.
-        self.logger = logging.getLogger(__name__)
-
-        if_exists_types = ['replace', 'use_existing', 'interrupt']
-        if if_env_exists not in if_exists_types:
-            raise ValueError("Invalid if_exists type. Expected one of: %s" % if_exists_types)
-
-        if if_dir_exists not in if_exists_types:
-            raise ValueError("Invalid if_exists type. Expected one of: %s" % if_exists_types)
-
-        self.if_env_exists = if_env_exists
-        self.if_dir_exists = if_dir_exists
-        self.new_env_name = new_env_name
-        self.target_dir = target_dir
+==python_project_setup.main:[48:176]
+==src.python_project_setup.main:[51:179]
+            self.target_dir = target_dir
         self.env_file = 'environment.yml'
         self.requirements_file = 'requirements.txt'
         self.additional_requirements = additional_requirements
@@ -363,10 +264,128 @@ class ProjectSetupManager:
 def main():
     import argparse
     parser = argparse.ArgumentParser(description='Setup a new Python project.')
-    parser.add_argument('--new_env_name', type=str, help='Name of the new Conda environment to be created.')
-    parser.add_argument('--target_dir', type=str, help='Target directory for the new project.')
-    parser.add_argument('--if_env_exists', type=str, default="replace", help='What to do if the Conda environment already exists.')
-    parser.add_argument('--if_dir_exists', type=str, default="replace", help='What to do if the target directory already exists.')
+    parser.add_argument('--new_env_name', type=str, help='Name of the new Conda environment to be created.') (duplicate-code)
+utilities\folder_structure.py:1:0: R0801: Similar lines in 2 files
+==folder_structure:[21:99]
+==folder_structure:[21:99]
+    if ignored_folders is None:
+        ignored_folders = []
+    if ignored_extensions is None:
+        ignored_extensions = []
+
+    output_lines = []
+
+    for root, dirs, files in os.walk(start_path, topdown=True):
+        dirs[:] = [
+            d for d in dirs if d not in ignored_folders
+        ]  # Modify dirs in place to ignore specified folders
+        level = root.replace(start_path, "").count(os.sep)
+        indent = " " * 4 * level
+        output_lines.append(f"{indent}{os.path.basename(root)}/")
+
+        subindent = " " * 4 * (level + 1)
+        for f in files:
+            if not any(f.endswith(ext) for ext in ignored_extensions):
+                output_lines.append(f"{subindent}{f}")
+
+    output_str = "\n".join(output_lines)
+
+    if output_path is not None:
+        with open(output_path, "w") as f:
+            f.write(output_str)
+    else:
+        print(output_str)  # Print to console
+
+
+if __name__=="__main__":
+    ### Get args from command line
+    # Standard Library
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--start_path", type=str, default=None)
+    parser.add_argument("--ignored_folders", type=str, default=None)
+    parser.add_argument("--ignored_extensions", type=str, default=None)
+    parser.add_argument("--output_path", type=str, default="utilities/results/folder_structure.txt")
+    parser.add_argument("--print_only", type=bool, default=False)
+    args = parser.parse_args()
+
+    if args.start_path is None:
+        start_path = os.path.join(
+        os.path.dirname(__file__), "..")
+    else:
+        start_path = args.start_path
+
+    if args.ignored_folders is None:
+        ignored_folders = [
+            "__pycache__",
+            ".git",
+            ".pytest_cache",
+            ".mypy_cache",
+        ]
+    else:
+        ignored_folders = args.ignored_folders
+
+    if args.ignored_extensions is None:
+        ignored_extensions = [".pyc", ".log"]
+    else:
+        ignored_extensions = args.ignored_extensions
+
+    output_path = args.output_path
+
+    if args.print_only is None:
+        print_only = False
+    else:
+        print_only = args.print_only
+
+    if print_only:
+        output_path = None
+
+    print_folder_structure(
+        start_path=start_path,
+        ignored_folders=ignored_folders,
+        ignored_extensions=ignored_extensions,
+        output_path=output_path,
+    ) (duplicate-code)
+utilities\folder_structure.py:1:0: R0801: Similar lines in 2 files
+==python_project_setup.main:[14:48]
+==src.python_project_setup.main:[14:48]
+config_path = os.path.join(os.path.dirname(__file__), 'logging.conf')
+logging.config.fileConfig(config_path, disable_existing_loggers=False)
+
+
+# This will get the root logger since no logger in the configuration has
+# this name.
+
+home = expanduser("~")
+# Load environment variables
+# (.env is not on git nor project folder, so copilot will not be able to
+# find it)
+
+class ProjectSetupManager:
+    def __init__(self,
+                 new_env_name: str,
+                 target_dir:str=r'tests\test_new_python_proyect',
+                 if_env_exists: str="use_existing",
+                 if_dir_exists: str="use_existing",
+                 additional_requirements: str=None
+        )->None:
+        # get root logger
+        # the __name__ resolve to "main" since we are at the root of the project.
+        self.logger = logging.getLogger(__name__)
+
+        if_exists_types = ['replace', 'use_existing', 'interrupt']
+        if if_env_exists not in if_exists_types:
+            raise ValueError("Invalid if_exists type. Expected one of: %s" % if_exists_types)
+
+        if if_dir_exists not in if_exists_types:
+            raise ValueError("Invalid if_exists type. Expected one of: %s" % if_exists_types)
+
+        self.if_env_exists = if_env_exists
+        self.if_dir_exists = if_dir_exists
+        self.new_env_name = new_env_name (duplicate-code)
+utilities\folder_structure.py:1:0: R0801: Similar lines in 2 files
+==python_project_setup.main:[179:191]
+==src.python_project_setup.main:[182:194]
     parser.add_argument('--additional_requirements', type=str, default=None, help='Additional requirements to be installed.')
     args = parser.parse_args()
     ProjectSetupManager(
@@ -379,241 +398,6 @@ def main():
 
 if __name__=='__main__':
     main() (duplicate-code)
-utilities\folder_structure.py:1:0: R0801: Similar lines in 2 files
-==folder_structure:[21:99]
-==folder_structure:[21:99]
-    if ignored_folders is None:
-        ignored_folders = []
-    if ignored_extensions is None:
-        ignored_extensions = []
-
-    output_lines = []
-
-    for root, dirs, files in os.walk(start_path, topdown=True):
-        dirs[:] = [
-            d for d in dirs if d not in ignored_folders
-        ]  # Modify dirs in place to ignore specified folders
-        level = root.replace(start_path, "").count(os.sep)
-        indent = " " * 4 * level
-        output_lines.append(f"{indent}{os.path.basename(root)}/")
-
-        subindent = " " * 4 * (level + 1)
-        for f in files:
-            if not any(f.endswith(ext) for ext in ignored_extensions):
-                output_lines.append(f"{subindent}{f}")
-
-    output_str = "\n".join(output_lines)
-
-    if output_path is not None:
-        with open(output_path, "w") as f:
-            f.write(output_str)
-    else:
-        print(output_str)  # Print to console
-
-
-if __name__=="__main__":
-    ### Get args from command line
-    # Standard Library
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--start_path", type=str, default=None)
-    parser.add_argument("--ignored_folders", type=str, default=None)
-    parser.add_argument("--ignored_extensions", type=str, default=None)
-    parser.add_argument("--output_path", type=str, default="utilities/results/folder_structure.txt")
-    parser.add_argument("--print_only", type=bool, default=False)
-    args = parser.parse_args()
-
-    if args.start_path is None:
-        start_path = os.path.join(
-        os.path.dirname(__file__), "..")
-    else:
-        start_path = args.start_path
-
-    if args.ignored_folders is None:
-        ignored_folders = [
-            "__pycache__",
-            ".git",
-            ".pytest_cache",
-            ".mypy_cache",
-        ]
-    else:
-        ignored_folders = args.ignored_folders
-
-    if args.ignored_extensions is None:
-        ignored_extensions = [".pyc", ".log"]
-    else:
-        ignored_extensions = args.ignored_extensions
-
-    output_path = args.output_path
-
-    if args.print_only is None:
-        print_only = False
-    else:
-        print_only = args.print_only
-
-    if print_only:
-        output_path = None
-
-    print_folder_structure(
-        start_path=start_path,
-        ignored_folders=ignored_folders,
-        ignored_extensions=ignored_extensions,
-        output_path=output_path,
-    ) (duplicate-code)
-utilities\folder_structure.py:1:0: R0801: Similar lines in 2 files
-==folder_structure:[21:99]
-==folder_structure:[21:99]
-    if ignored_folders is None:
-        ignored_folders = []
-    if ignored_extensions is None:
-        ignored_extensions = []
-
-    output_lines = []
-
-    for root, dirs, files in os.walk(start_path, topdown=True):
-        dirs[:] = [
-            d for d in dirs if d not in ignored_folders
-        ]  # Modify dirs in place to ignore specified folders
-        level = root.replace(start_path, "").count(os.sep)
-        indent = " " * 4 * level
-        output_lines.append(f"{indent}{os.path.basename(root)}/")
-
-        subindent = " " * 4 * (level + 1)
-        for f in files:
-            if not any(f.endswith(ext) for ext in ignored_extensions):
-                output_lines.append(f"{subindent}{f}")
-
-    output_str = "\n".join(output_lines)
-
-    if output_path is not None:
-        with open(output_path, "w") as f:
-            f.write(output_str)
-    else:
-        print(output_str)  # Print to console
-
-
-if __name__=="__main__":
-    ### Get args from command line
-    # Standard Library
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--start_path", type=str, default=None)
-    parser.add_argument("--ignored_folders", type=str, default=None)
-    parser.add_argument("--ignored_extensions", type=str, default=None)
-    parser.add_argument("--output_path", type=str, default="utilities/results/folder_structure.txt")
-    parser.add_argument("--print_only", type=bool, default=False)
-    args = parser.parse_args()
-
-    if args.start_path is None:
-        start_path = os.path.join(
-        os.path.dirname(__file__), "..")
-    else:
-        start_path = args.start_path
-
-    if args.ignored_folders is None:
-        ignored_folders = [
-            "__pycache__",
-            ".git",
-            ".pytest_cache",
-            ".mypy_cache",
-        ]
-    else:
-        ignored_folders = args.ignored_folders
-
-    if args.ignored_extensions is None:
-        ignored_extensions = [".pyc", ".log"]
-    else:
-        ignored_extensions = args.ignored_extensions
-
-    output_path = args.output_path
-
-    if args.print_only is None:
-        print_only = False
-    else:
-        print_only = args.print_only
-
-    if print_only:
-        output_path = None
-
-    print_folder_structure(
-        start_path=start_path,
-        ignored_folders=ignored_folders,
-        ignored_extensions=ignored_extensions,
-        output_path=output_path,
-    ) (duplicate-code)
-utilities\folder_structure.py:1:0: R0801: Similar lines in 2 files
-==test_project_setup_manager:[11:81]
-==tests.test_project_setup_manager:[11:81]
-    return ProjectSetupManager(
-        new_env_name='test-env',
-        target_dir='tests/new_python_project',
-        if_env_exists='replace',
-        additional_requirements=None
-    )
-
-def test_check_if_new_env_exists_true(mocker, setup_manager):
-    mock_subprocess = mocker.patch('subprocess.Popen')
-    mock_subprocess.return_value.stdout.read.return_value = b'\ntest-env\n'
-    setup_manager.check_if_new_env_exists()
-    assert setup_manager.new_env_exists == True
-
-def test_check_if_new_env_exists_false(mocker, setup_manager):
-    mock_subprocess = mocker.patch('subprocess.Popen')
-    mock_subprocess.return_value.stdout.read.return_value = b'something something noenv\n'
-    setup_manager.check_if_new_env_exists()
-    assert setup_manager.new_env_exists == False
-
-def test_create_conda_environment(mocker, setup_manager):
-    mocker.patch('os.system', return_value=0)
-    setup_manager.create_conda_environment()
-    # Assertions to check if environment creation was logged, etc.
-
-def test_install_packages(mocker, setup_manager):
-    mocker.patch('os.system', return_value=0)
-    setup_manager.install_packages()
-    # Assertions to check if package installation was logged, etc.
-
-def test_setup_project_files(mocker, setup_manager):
-    # Mocking os.makedirs to avoid actual directory creation
-    mock_makedirs = mocker.patch('os.makedirs')
-
-    # Mocking os.listdir to simulate the directory contents
-    mocker.patch('os.listdir', return_value=['environment.yml', 'logging.conf', 'main.py', 'Makefile', 'requirements.txt', '__init__.py', 'utilities'])
-
-    # Mocking shutil.copy2 for file copying
-    mock_copy2 = mocker.patch('shutil.copy2')
-
-    # Mocking shutil.copytree for directory copying
-    mock_copytree = mocker.patch('shutil.copytree')
-
-    # Mocking os.path.isdir to correctly identify directories
-    mocker.patch('os.path.isdir', side_effect=lambda x: x == 'utilities')
-
-    # Execute the method
-    setup_manager.setup_project_files()
-
-    # Assertions
-    mock_makedirs.assert_called_with('tests/new_python_project', exist_ok=True)
-
-    # Check if files are correctly copied
-    expected_files = ['environment.yml', 'logging.conf', 'main.py', 'Makefile', 'requirements.txt', '__init__.py']
-    for file in expected_files:
-        mock_copy2.assert_any_call(os.path.join(setup_manager.source_dir, file), os.path.join('tests/new_python_project', file))
-
-
-def test_init_pre_hook(mocker, setup_manager):
-    mocker.patch('os.system', return_value=0)
-    setup_manager.init_pre_hook()
-    # Assertions to check if pre-commit hook was initialized, etc.
-
-def test_set_up_new_proyect(mocker, setup_manager):
-    mocker.patch.object(setup_manager, 'setup_project_files')
-    mocker.patch.object(setup_manager, 'setup_conda_environment')
-    mocker.patch.object(setup_manager, 'init_pre_hook')
-    setup_manager.set_up_new_proyect()
-    setup_manager.setup_project_files.assert_called_once()
-    setup_manager.setup_conda_environment.assert_called_once()
-    setup_manager.init_pre_hook.assert_called_once() (duplicate-code)
 
 ------------------------------------------------------------------
 Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
