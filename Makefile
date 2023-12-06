@@ -32,12 +32,12 @@ create-new-project:
 create-new-projectfrom-package:
 	setup-python-project --new_env_name "test-env-name" --target_dir "C:/Users/jange/Python Scripts/test_new_python_proyect/" --if_env_exists "replace"
 
-build:
+package-build:
 	python -m build
 
 twine-upload-test:
 	python -m twine upload --repository testpypi dist/* --skip-existing
 
 build-and-upload-test:
-	make build
+	make package-build
 	make twine-upload-test
