@@ -52,7 +52,6 @@ __init__.py:1:0: E0401: Unable to import 'project_setup_manager' (import-error)
 ************* Module python-project-setup.new_project_files.main
 new_project_files\main.py:21:0: C0304: Final newline missing (missing-final-newline)
 new_project_files\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-new_project_files\main.py:7:0: E0401: Unable to import 'dotenv' (import-error)
 new_project_files\main.py:7:0: W0611: Unused dotenv_values imported from dotenv (unused-import)
 ************* Module python-project-setup.new_project_files.__init__
 new_project_files\__init__.py:18:0: C0304: Final newline missing (missing-final-newline)
@@ -180,5 +179,5 @@ if __name__=="__main__":
     ) (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.06/10 (previous run: 6.06/10, +0.00)
+Your code has been rated at 6.25/10 (previous run: 6.25/10, +0.00)
 
