@@ -1,11 +1,13 @@
 ../
+    .coverage
     .pre-commit-config.yaml
     environment.yml
     environment_filtered.yml
     logging.conf
-    main.py
     Makefile
+    project_setup_manager.py
     requirements.txt
+    __init__.py
     new_project_files/
         environment.yml
         logging.conf
@@ -20,6 +22,22 @@
             pylint.bat
             pytest.bat
             results/
+    tests/
+        test_project_setup_manager.py
+        __init__.py
+        new_python_project/
+            tests/
+                new_python_project/
+                    tests/
+                        new_python_project/
+                            tests/
+                                new_python_project/
+                                    tests/
+                                        new_python_project/
+                                            tests/
+                                                new_python_project/
+                                                    tests/
+                                                        new_python_project/
     utilities/
         excluded_libraries.txt
         filter_env.bat

@@ -33,7 +33,7 @@ repos:
     -   id: run-tests
         name: run-tests
         language: system
-        entry: pytest --cov
+        entry: pytest
         pass_filenames: false
         always_run: true
         types: [python]

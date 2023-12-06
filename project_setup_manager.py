@@ -4,11 +4,11 @@
 import logging
 import logging.config
 import os
+import platform
 import re
 import shutil
 import subprocess
 from os.path import expanduser
-import platform
 
 # setup loggers
 logging.config.fileConfig("logging.conf", disable_existing_loggers=False)
@@ -25,8 +25,9 @@ home = expanduser("~")
 class ProjectSetupManager:
     def __init__(self, 
                  new_env_name: str, 
-                 target_dir:str=r'C:\Users\jange\Python Scripts\test_new_python_proyect', 
-                 if_env_exists: str="replace", 
+                 target_dir:str=r'tests\test_new_python_proyect', 
+                 if_env_exists: str="use_existing", 
+                 if_dir_exists: str="use_existing",
                  additional_requirements: str=None
         )->None:
         # get root logger
@@ -37,7 +38,11 @@ class ProjectSetupManager:
         if if_env_exists not in if_exists_types:
             raise ValueError("Invalid if_exists type. Expected one of: %s" % if_exists_types)
         
+        if if_dir_exists not in if_exists_types:
+            raise ValueError("Invalid if_exists type. Expected one of: %s" % if_exists_types)
+
         self.if_env_exists = if_env_exists
+        self.if_dir_exists = if_dir_exists
         self.new_env_name = new_env_name
         self.target_dir = target_dir
         self.env_file = 'environment.yml'
@@ -55,13 +60,28 @@ class ProjectSetupManager:
             "init_pre_hook": "pre-commit install"
         }
 
+        if os.path.isdir(self.target_dir):
+            self.logger.info(f"Target directory {self.target_dir} already exists.")
+            if self.if_dir_exists=='replace':
+                self.logger.info(f"Removing target directory {self.target_dir}...")
+                shutil.rmtree(self.target_dir)
+                self.logger.info(f"Target directory {self.target_dir} removed.")
+                os.makedirs(self.target_dir, exist_ok=True)
+            elif self.if_dir_exists=='interrupt':
+                raise Exception(f"Target directory {self.target_dir} already exists.")
+            elif self.if_dir_exists=='use_existing':
+                self.logger.info(f"Using existing target directory {self.target_dir}.")
+        else:
+            self.logger.info(f"Creating target directory {self.target_dir}...")
+            os.makedirs(self.target_dir, exist_ok=True)
+            self.logger.info(f"Target directory {self.target_dir} created.")
         os.chdir(self.target_dir)
 
 
     def check_if_new_env_exists(self):
         get_conda_envs =  subprocess.Popen(self.commands["conda_list_envs"], shell=True, stdout=subprocess.PIPE).stdout
         conda_envs = get_conda_envs.read().decode("utf-8")
-        matching_envs=re.findall(f"\s+{self.new_env_name}\s+",conda_envs)
+        matching_envs=re.findall(rf"\s+{self.new_env_name}\s+",conda_envs)
         if len(matching_envs)>0:
             self.new_env_exists=True
         else:
@@ -73,7 +93,7 @@ class ProjectSetupManager:
         """
         try:
             self.logger.info(f'Creating Conda environment {self.new_env_name}...')
-            os.system(f"""start /wait cmd /c "{self.commands["conda_create_env"]}" """)
+            os.system(f"""start /wait cmd /c "{self.commands["create_conda_env"]}" """)
             self.logger.info(f'Conda environment {self.new_env_name} created.')
         except Exception as error:
             self.logger.error(f'Conda environment {self.new_env_name} could not be created.')

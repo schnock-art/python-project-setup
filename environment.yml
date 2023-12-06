@@ -1,4 +1,4 @@
-name: python-proyect-setup
+name: python-project-setup
 channels:
   - defaults
 dependencies:
@@ -31,6 +31,6 @@ dependencies:
       - pylint==3.0.2
       - pytest==7.4.3
       - pytest-cov==4.1.0
-      - python-dotenv==1.0.0
+      - pytest-mock==3.12.0
       - tomlkit==0.12.3
-prefix: C:\Users\jange\anaconda3\envs\python-proyect-setup
+prefix: C:\Users\jange\anaconda3\envs\python-project-setup

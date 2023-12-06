@@ -1,12 +1,19 @@
 ============================= test session starts =============================
 platform win32 -- Python 3.11.5, pytest-7.4.3, pluggy-1.3.0
 rootdir: C:\Users\jange\Python Scripts\python-project-setup
-plugins: cov-4.1.0
-collected 0 items
-WARNING: Failed to generate report: No data to report.
+plugins: cov-4.1.0, mock-3.12.0
+collected 7 items
 
-
+tests\test_project_setup_manager.py .......                              [100%]
 
 ---------- coverage: platform win32, python 3.11.5-final-0 -----------
+Name                                  Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------
+project_setup_manager.py                114     44    61%   39, 42, 66-69, 71, 75-77, 98-100, 111-116, 122-134, 147, 161-163, 172-179
+tests\__init__.py                         0      0   100%
+tests\test_project_setup_manager.py      45      0   100%
+-------------------------------------------------------------------
+TOTAL                                   159     44    72%
 
-============================ no tests ran in 0.06s ============================
+
+============================== 7 passed in 0.21s ==============================
