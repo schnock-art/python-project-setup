@@ -34,7 +34,7 @@ pytest==7.4.3
 pytest-cov==4.1.0
 pytest-mock==3.12.0
 python-dotenv==1.0.0
--e git+https://github.com/schnock-art/python-project-setup.git@5dfa5005b580d77f233ad40800deaa7deec013a4#egg=python_project_setup
+-e git+https://github.com/schnock-art/python-project-setup.git@23b1ee10ae1a0734b77b41ea891a34af748c7acb#egg=python_project_setup
 pywin32-ctypes==0.2.2
 PyYAML==6.0.1
 readme-renderer==42.0

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python_project_setup"
-version = "0.0.3"
+version = "0.0.5"
 authors = [
   { name="Schnock", email="schnock.art@gmail.com" },
 ]
@@ -20,8 +20,14 @@ classifiers = [
 [project.scripts]
 setup-python-project = "python_project_setup.main:main"
 
+[tool.setuptools]
+include-package-data = true
+
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+python_project_setup = ["new_project_files/*", "logging.config"]
 
 [project.urls]
 Homepage = "https://github.com/schnock-art/python-project-setup"

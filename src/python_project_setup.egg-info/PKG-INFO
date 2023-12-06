@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: python-project-setup
-Version: 0.0.3
+Version: 0.0.5
 Summary: A package for setting up a new python project
 Author-email: Schnock <schnock.art@gmail.com>
 Project-URL: Homepage, https://github.com/schnock-art/python-project-setup
