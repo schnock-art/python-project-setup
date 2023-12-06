@@ -1,0 +1,49 @@
+# Python Project Setup
+
+## Description
+
+This Python project automates the setup of a new Python environment and project structure. It is designed to streamline the process of initializing new Python projects, including environment creation, package installation, and basic file setup.
+
+## Features
+
+- Automated creation of a new Conda environment.
+- Configuration of project directories.
+- Installation of required Python packages.
+- Initialization of pre-commit hooks.
+
+## Installation
+
+To install this package, you can use pip. Run the following command:
+
+    pip install -i https://test.pypi.org/simple/ python-project-setup==0.0.1
+
+
+## Usage
+
+After installing the package, you can set up a new Python project using the command line. Here's how you use it:
+
+    setup-python-project --new_env_name "env_name" --target_dir "target_directory" --if_env_exists "action" --if_dir_exists "action" --additional_requirements "requirements.txt"
+
+- `--new_env_name`: Name of the new Conda environment to be created.
+- `--target_dir`: Target directory for the new project.
+- `--if_env_exists`: What to do if the Conda environment already exists. Options: "replace", "use_existing", "interrupt".
+- `--if_dir_exists`: What to do if the target directory already exists. Options: "replace", "use_existing", "interrupt".
+- `--additional_requirements`: Path to a file with additional requirements to be installed.
+
+### Example
+
+To create a new project in a directory named `my_project` with a new environment named `my_env`, run:
+
+    setup-python-project --new_env_name "my_env" --target_dir "my_project"
+
+## Contributing
+
+Contributions to this project are welcome! Please fork the repository, make your changes, and submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For questions or feedback, please contact [Schnock](schnock.art@gmail.com).

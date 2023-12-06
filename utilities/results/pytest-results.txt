@@ -7,13 +7,14 @@ collected 7 items
 tests\test_project_setup_manager.py .......                              [100%]
 
 ---------- coverage: platform win32, python 3.11.5-final-0 -----------
-Name                                  Stmts   Miss  Cover   Missing
--------------------------------------------------------------------
-project_setup_manager.py                114     44    61%   39, 42, 66-69, 71, 75-77, 98-100, 111-116, 122-134, 147, 161-163, 172-179
-tests\__init__.py                         0      0   100%
-tests\test_project_setup_manager.py      45      0   100%
--------------------------------------------------------------------
-TOTAL                                   159     44    72%
+Name                                   Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------
+src\python_project_setup\__init__.py       0      0   100%
+src\python_project_setup\main.py         118     46    61%   41, 44, 68-71, 73, 77-79, 100-102, 113-118, 124-136, 149, 163-165, 174-182, 191
+tests\__init__.py                          0      0   100%
+tests\test_project_setup_manager.py       45      0   100%
+--------------------------------------------------------------------
+TOTAL                                    163     46    72%
 
 
-============================== 7 passed in 0.19s ==============================
+============================== 7 passed in 0.20s ==============================

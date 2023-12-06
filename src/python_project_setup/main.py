@@ -11,7 +11,9 @@ import subprocess
 from os.path import expanduser
 
 # setup loggers
-logging.config.fileConfig("logging.conf", disable_existing_loggers=False)
+
+config_path = os.path.join(os.path.dirname(__file__), 'logging.conf')
+logging.config.fileConfig(config_path, disable_existing_loggers=False)
 
 
 # This will get the root logger since no logger in the configuration has
@@ -23,10 +25,10 @@ home = expanduser("~")
 # find it)
 
 class ProjectSetupManager:
-    def __init__(self, 
-                 new_env_name: str, 
-                 target_dir:str=r'tests\test_new_python_proyect', 
-                 if_env_exists: str="use_existing", 
+    def __init__(self,
+                 new_env_name: str,
+                 target_dir:str=r'tests\test_new_python_proyect',
+                 if_env_exists: str="use_existing",
                  if_dir_exists: str="use_existing",
                  additional_requirements: str=None
         )->None:
@@ -37,7 +39,7 @@ class ProjectSetupManager:
         if_exists_types = ['replace', 'use_existing', 'interrupt']
         if if_env_exists not in if_exists_types:
             raise ValueError("Invalid if_exists type. Expected one of: %s" % if_exists_types)
-        
+
         if if_dir_exists not in if_exists_types:
             raise ValueError("Invalid if_exists type. Expected one of: %s" % if_exists_types)
 
@@ -86,7 +88,7 @@ class ProjectSetupManager:
             self.new_env_exists=True
         else:
             self.new_env_exists=False
-        
+
     def create_conda_environment(self):
         """
         Creates a Conda environment with the given name from the provided environment file.
@@ -98,7 +100,7 @@ class ProjectSetupManager:
         except Exception as error:
             self.logger.error(f'Conda environment {self.new_env_name} could not be created.')
             raise error
-        
+
     def install_packages(self):
         """
         Installs the packages listed in the requirements file.
@@ -114,7 +116,7 @@ class ProjectSetupManager:
         except Exception as error:
             self.logger.error("Packages could not be installed.")
             raise error
-        
+
     def setup_conda_environment(self):
         """
         Creates a Conda environment with the given name from the provided environment file.
@@ -161,25 +163,29 @@ class ProjectSetupManager:
         except Exception as error:
             self.logger.error("Pre-commit hook could not be initialized.")
             raise error
-        
+
 
     def set_up_new_proyect(self):
         self.setup_project_files()
         self.setup_conda_environment()
         self.init_pre_hook()
 
-if __name__=='__main__':
+def main():
     import argparse
     parser = argparse.ArgumentParser(description='Setup a new Python project.')
     parser.add_argument('--new_env_name', type=str, help='Name of the new Conda environment to be created.')
     parser.add_argument('--target_dir', type=str, help='Target directory for the new project.')
     parser.add_argument('--if_env_exists', type=str, default="replace", help='What to do if the Conda environment already exists.')
+    parser.add_argument('--if_dir_exists', type=str, default="replace", help='What to do if the target directory already exists.')
     parser.add_argument('--additional_requirements', type=str, default=None, help='Additional requirements to be installed.')
     args = parser.parse_args()
     ProjectSetupManager(
-        new_env_name=args.new_env_name, 
-        target_dir=args.target_dir, 
-        if_env_exists=args.if_env_exists, 
+        new_env_name=args.new_env_name,
+        target_dir=args.target_dir,
+        if_env_exists=args.if_env_exists,
+        if_dir_exists=args.if_dir_exists,
         additional_requirements=args.additional_requirements
     ).set_up_new_proyect()
-    
+
+if __name__=='__main__':
+    main()

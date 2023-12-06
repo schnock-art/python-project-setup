@@ -1,75 +1,135 @@
-************* Module python-project-setup.project_setup_manager
-project_setup_manager.py:26:22: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:27:35: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:28:65: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:29:51: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:40:0: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:82:0: C0301: Line too long (119/100) (line-too-long)
-project_setup_manager.py:89:0: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:101:0: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:108:0: C0301: Line too long (124/100) (line-too-long)
-project_setup_manager.py:112:0: C0301: Line too long (124/100) (line-too-long)
-project_setup_manager.py:117:0: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:159:0: C0301: Line too long (122/100) (line-too-long)
-project_setup_manager.py:164:0: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:174:0: C0301: Line too long (108/100) (line-too-long)
-project_setup_manager.py:176:0: C0301: Line too long (131/100) (line-too-long)
-project_setup_manager.py:177:0: C0301: Line too long (125/100) (line-too-long)
-project_setup_manager.py:180:39: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:181:35: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:182:41: C0303: Trailing whitespace (trailing-whitespace)
-project_setup_manager.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-project_setup_manager.py:25:0: C0115: Missing class docstring (missing-class-docstring)
-project_setup_manager.py:25:0: R0902: Too many instance attributes (11/7) (too-many-instance-attributes)
-project_setup_manager.py:26:4: R0913: Too many arguments (6/5) (too-many-arguments)
-project_setup_manager.py:64:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:66:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:68:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:71:16: W0719: Raising too general exception: Exception (broad-exception-raised)
-project_setup_manager.py:73:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:75:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:77:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:81:4: C0116: Missing function or method docstring (missing-function-docstring)
-project_setup_manager.py:82:26: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
-project_setup_manager.py:95:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:97:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:99:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:124:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:126:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:128:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:131:16: W0719: Raising too general exception: Exception (broad-exception-raised)
-project_setup_manager.py:133:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
-project_setup_manager.py:166:4: C0116: Missing function or method docstring (missing-function-docstring)
-project_setup_manager.py:86:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
-project_setup_manager.py:88:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
-project_setup_manager.py:7:0: W0611: Unused import platform (unused-import)
-************* Module python-project-setup.__init__
-__init__.py:1:0: C0304: Final newline missing (missing-final-newline)
-************* Module python-project-setup
-__init__.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-__init__.py:1:0: C0103: Module name "python-project-setup" doesn't conform to snake_case naming style (invalid-name)
-__init__.py:1:0: E0401: Unable to import 'project_setup_manager' (import-error)
-************* Module python-project-setup.new_project_files.main
-new_project_files\main.py:21:0: C0304: Final newline missing (missing-final-newline)
-new_project_files\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-new_project_files\main.py:7:0: W0611: Unused dotenv_values imported from dotenv (unused-import)
-************* Module python-project-setup.new_project_files.__init__
-new_project_files\__init__.py:18:0: C0304: Final newline missing (missing-final-newline)
-************* Module python-project-setup.new_project_files
-new_project_files\__init__.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module *.py
+*.py:1:0: F0001: No module named *.py (fatal)
+************* Module python_project_setup.main
+build\lib\python_project_setup\main.py:28:22: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:29:35: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:30:65: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:31:51: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:84:0: C0301: Line too long (119/100) (line-too-long)
+build\lib\python_project_setup\main.py:91:0: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:103:0: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:110:0: C0301: Line too long (124/100) (line-too-long)
+build\lib\python_project_setup\main.py:114:0: C0301: Line too long (124/100) (line-too-long)
+build\lib\python_project_setup\main.py:119:0: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:161:0: C0301: Line too long (122/100) (line-too-long)
+build\lib\python_project_setup\main.py:166:0: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:176:0: C0301: Line too long (108/100) (line-too-long)
+build\lib\python_project_setup\main.py:178:0: C0301: Line too long (131/100) (line-too-long)
+build\lib\python_project_setup\main.py:179:0: C0301: Line too long (130/100) (line-too-long)
+build\lib\python_project_setup\main.py:180:0: C0301: Line too long (125/100) (line-too-long)
+build\lib\python_project_setup\main.py:183:39: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:184:35: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:185:41: C0303: Trailing whitespace (trailing-whitespace)
+build\lib\python_project_setup\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+build\lib\python_project_setup\main.py:27:0: C0115: Missing class docstring (missing-class-docstring)
+build\lib\python_project_setup\main.py:27:0: R0902: Too many instance attributes (11/7) (too-many-instance-attributes)
+build\lib\python_project_setup\main.py:28:4: R0913: Too many arguments (6/5) (too-many-arguments)
+build\lib\python_project_setup\main.py:66:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:68:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:70:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:73:16: W0719: Raising too general exception: Exception (broad-exception-raised)
+build\lib\python_project_setup\main.py:75:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:77:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:79:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:83:4: C0116: Missing function or method docstring (missing-function-docstring)
+build\lib\python_project_setup\main.py:84:26: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+build\lib\python_project_setup\main.py:97:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:99:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:101:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:126:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:128:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:130:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:133:16: W0719: Raising too general exception: Exception (broad-exception-raised)
+build\lib\python_project_setup\main.py:135:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+build\lib\python_project_setup\main.py:168:4: C0116: Missing function or method docstring (missing-function-docstring)
+build\lib\python_project_setup\main.py:88:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
+build\lib\python_project_setup\main.py:90:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
+build\lib\python_project_setup\main.py:173:0: C0116: Missing function or method docstring (missing-function-docstring)
+build\lib\python_project_setup\main.py:174:4: C0415: Import outside toplevel (argparse) (import-outside-toplevel)
+build\lib\python_project_setup\main.py:7:0: W0611: Unused import platform (unused-import)
+************* Module python_project_setup.new_project_files.main
+build\lib\python_project_setup\new_project_files\main.py:21:0: C0304: Final newline missing (missing-final-newline)
+build\lib\python_project_setup\new_project_files\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+build\lib\python_project_setup\new_project_files\main.py:7:0: W0611: Unused dotenv_values imported from dotenv (unused-import)
+************* Module python_project_setup.new_project_files.__init__
+build\lib\python_project_setup\new_project_files\__init__.py:18:0: C0304: Final newline missing (missing-final-newline)
+************* Module python_project_setup.new_project_files
+build\lib\python_project_setup\new_project_files\__init__.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 ************* Module folder_structure
-new_project_files\utilities\folder_structure.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-new_project_files\utilities\folder_structure.py:7:8: W0621: Redefining name 'start_path' from outer scope (line 64) (redefined-outer-name)
-new_project_files\utilities\folder_structure.py:11:8: W0621: Redefining name 'output_path' from outer scope (line 84) (redefined-outer-name)
-new_project_files\utilities\folder_structure.py:45:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
-new_project_files\utilities\folder_structure.py:87:8: C0103: Constant name "print_only" doesn't conform to UPPER_CASE naming style (invalid-name)
-new_project_files\utilities\folder_structure.py:92:8: C0103: Constant name "output_path" doesn't conform to UPPER_CASE naming style (invalid-name)
-************* Module python-project-setup.tests.test_project_setup_manager
+build\lib\python_project_setup\new_project_files\utilities\folder_structure.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+build\lib\python_project_setup\new_project_files\utilities\folder_structure.py:7:8: W0621: Redefining name 'start_path' from outer scope (line 64) (redefined-outer-name)
+build\lib\python_project_setup\new_project_files\utilities\folder_structure.py:11:8: W0621: Redefining name 'output_path' from outer scope (line 84) (redefined-outer-name)
+build\lib\python_project_setup\new_project_files\utilities\folder_structure.py:45:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+build\lib\python_project_setup\new_project_files\utilities\folder_structure.py:87:8: C0103: Constant name "print_only" doesn't conform to UPPER_CASE naming style (invalid-name)
+build\lib\python_project_setup\new_project_files\utilities\folder_structure.py:92:8: C0103: Constant name "output_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module src.python_project_setup.main
+src\python_project_setup\main.py:28:22: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:29:35: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:30:65: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:31:51: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:84:0: C0301: Line too long (119/100) (line-too-long)
+src\python_project_setup\main.py:91:0: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:103:0: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:110:0: C0301: Line too long (124/100) (line-too-long)
+src\python_project_setup\main.py:114:0: C0301: Line too long (124/100) (line-too-long)
+src\python_project_setup\main.py:119:0: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:161:0: C0301: Line too long (122/100) (line-too-long)
+src\python_project_setup\main.py:166:0: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:176:0: C0301: Line too long (108/100) (line-too-long)
+src\python_project_setup\main.py:178:0: C0301: Line too long (131/100) (line-too-long)
+src\python_project_setup\main.py:179:0: C0301: Line too long (130/100) (line-too-long)
+src\python_project_setup\main.py:180:0: C0301: Line too long (125/100) (line-too-long)
+src\python_project_setup\main.py:183:39: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:184:35: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:185:41: C0303: Trailing whitespace (trailing-whitespace)
+src\python_project_setup\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+src\python_project_setup\main.py:27:0: C0115: Missing class docstring (missing-class-docstring)
+src\python_project_setup\main.py:27:0: R0902: Too many instance attributes (11/7) (too-many-instance-attributes)
+src\python_project_setup\main.py:28:4: R0913: Too many arguments (6/5) (too-many-arguments)
+src\python_project_setup\main.py:66:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:68:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:70:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:73:16: W0719: Raising too general exception: Exception (broad-exception-raised)
+src\python_project_setup\main.py:75:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:77:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:79:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:83:4: C0116: Missing function or method docstring (missing-function-docstring)
+src\python_project_setup\main.py:84:26: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+src\python_project_setup\main.py:97:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:99:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:101:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:126:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:128:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:130:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:133:16: W0719: Raising too general exception: Exception (broad-exception-raised)
+src\python_project_setup\main.py:135:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+src\python_project_setup\main.py:168:4: C0116: Missing function or method docstring (missing-function-docstring)
+src\python_project_setup\main.py:88:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
+src\python_project_setup\main.py:90:12: W0201: Attribute 'new_env_exists' defined outside __init__ (attribute-defined-outside-init)
+src\python_project_setup\main.py:173:0: C0116: Missing function or method docstring (missing-function-docstring)
+src\python_project_setup\main.py:174:4: C0415: Import outside toplevel (argparse) (import-outside-toplevel)
+src\python_project_setup\main.py:7:0: W0611: Unused import platform (unused-import)
+************* Module src.python_project_setup.new_project_files.main
+src\python_project_setup\new_project_files\main.py:21:0: C0304: Final newline missing (missing-final-newline)
+src\python_project_setup\new_project_files\main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+src\python_project_setup\new_project_files\main.py:7:0: W0611: Unused dotenv_values imported from dotenv (unused-import)
+************* Module src.python_project_setup.new_project_files.__init__
+src\python_project_setup\new_project_files\__init__.py:18:0: C0304: Final newline missing (missing-final-newline)
+************* Module src.python_project_setup.new_project_files
+src\python_project_setup\new_project_files\__init__.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+src\python_project_setup\new_project_files\utilities\folder_structure.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+src\python_project_setup\new_project_files\utilities\folder_structure.py:7:8: W0621: Redefining name 'start_path' from outer scope (line 64) (redefined-outer-name)
+src\python_project_setup\new_project_files\utilities\folder_structure.py:11:8: W0621: Redefining name 'output_path' from outer scope (line 84) (redefined-outer-name)
+src\python_project_setup\new_project_files\utilities\folder_structure.py:45:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+src\python_project_setup\new_project_files\utilities\folder_structure.py:87:8: C0103: Constant name "print_only" doesn't conform to UPPER_CASE naming style (invalid-name)
+src\python_project_setup\new_project_files\utilities\folder_structure.py:92:8: C0103: Constant name "output_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module tests.test_project_setup_manager
 tests\test_project_setup_manager.py:46:0: C0301: Line too long (151/100) (line-too-long)
 tests\test_project_setup_manager.py:64:0: C0301: Line too long (114/100) (line-too-long)
 tests\test_project_setup_manager.py:66:0: C0301: Line too long (128/100) (line-too-long)
 tests\test_project_setup_manager.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-tests\test_project_setup_manager.py:6:0: E0401: Unable to import 'project_setup_manager' (import-error)
 tests\test_project_setup_manager.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
 tests\test_project_setup_manager.py:19:0: C0116: Missing function or method docstring (missing-function-docstring)
 tests\test_project_setup_manager.py:19:46: W0621: Redefining name 'setup_manager' from outer scope (line 11) (redefined-outer-name)
@@ -96,6 +156,186 @@ utilities\folder_structure.py:11:8: W0621: Redefining name 'output_path' from ou
 utilities\folder_structure.py:45:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
 utilities\folder_structure.py:87:8: C0103: Constant name "print_only" doesn't conform to UPPER_CASE naming style (invalid-name)
 utilities\folder_structure.py:92:8: C0103: Constant name "output_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+utilities\folder_structure.py:1:0: R0801: Similar lines in 2 files
+==python_project_setup.main:[14:191]
+==src.python_project_setup.main:[14:191]
+config_path = os.path.join(os.path.dirname(__file__), 'logging.conf')
+logging.config.fileConfig(config_path, disable_existing_loggers=False)
+
+
+# This will get the root logger since no logger in the configuration has
+# this name.
+
+home = expanduser("~")
+# Load environment variables
+# (.env is not on git nor project folder, so copilot will not be able to
+# find it)
+
+class ProjectSetupManager:
+    def __init__(self,
+                 new_env_name: str,
+                 target_dir:str=r'tests\test_new_python_proyect',
+                 if_env_exists: str="use_existing",
+                 if_dir_exists: str="use_existing",
+                 additional_requirements: str=None
+        )->None:
+        # get root logger
+        # the __name__ resolve to "main" since we are at the root of the project.
+        self.logger = logging.getLogger(__name__)
+
+        if_exists_types = ['replace', 'use_existing', 'interrupt']
+        if if_env_exists not in if_exists_types:
+            raise ValueError("Invalid if_exists type. Expected one of: %s" % if_exists_types)
+
+        if if_dir_exists not in if_exists_types:
+            raise ValueError("Invalid if_exists type. Expected one of: %s" % if_exists_types)
+
+        self.if_env_exists = if_env_exists
+        self.if_dir_exists = if_dir_exists
+        self.new_env_name = new_env_name
+        self.target_dir = target_dir
+        self.env_file = 'environment.yml'
+        self.requirements_file = 'requirements.txt'
+        self.additional_requirements = additional_requirements
+        self.source_dir = os.path.join(os.path.dirname(__file__),'new_project_files')
+
+        self.commands = {
+            "start_anaconda": "conda activate",
+            "conda_activate_env": f"conda activate {self.new_env_name}",
+            "create_conda_env": f"conda env create /n {self.new_env_name} -f {self.env_file}",
+            "package_install": f"pip install -r {self.requirements_file}",
+            "remove_conda_env": f"conda env remove -n {self.new_env_name}",
+            "conda_list_envs": "conda env list",
+            "init_pre_hook": "pre-commit install"
+        }
+
+        if os.path.isdir(self.target_dir):
+            self.logger.info(f"Target directory {self.target_dir} already exists.")
+            if self.if_dir_exists=='replace':
+                self.logger.info(f"Removing target directory {self.target_dir}...")
+                shutil.rmtree(self.target_dir)
+                self.logger.info(f"Target directory {self.target_dir} removed.")
+                os.makedirs(self.target_dir, exist_ok=True)
+            elif self.if_dir_exists=='interrupt':
+                raise Exception(f"Target directory {self.target_dir} already exists.")
+            elif self.if_dir_exists=='use_existing':
+                self.logger.info(f"Using existing target directory {self.target_dir}.")
+        else:
+            self.logger.info(f"Creating target directory {self.target_dir}...")
+            os.makedirs(self.target_dir, exist_ok=True)
+            self.logger.info(f"Target directory {self.target_dir} created.")
+        os.chdir(self.target_dir)
+
+
+    def check_if_new_env_exists(self):
+        get_conda_envs =  subprocess.Popen(self.commands["conda_list_envs"], shell=True, stdout=subprocess.PIPE).stdout
+        conda_envs = get_conda_envs.read().decode("utf-8")
+        matching_envs=re.findall(rf"\s+{self.new_env_name}\s+",conda_envs)
+        if len(matching_envs)>0:
+            self.new_env_exists=True
+        else:
+            self.new_env_exists=False
+
+    def create_conda_environment(self):
+        """
+        Creates a Conda environment with the given name from the provided environment file.
+        """
+        try:
+            self.logger.info(f'Creating Conda environment {self.new_env_name}...')
+            os.system(f"""start /wait cmd /c "{self.commands["create_conda_env"]}" """)
+            self.logger.info(f'Conda environment {self.new_env_name} created.')
+        except Exception as error:
+            self.logger.error(f'Conda environment {self.new_env_name} could not be created.')
+            raise error
+
+    def install_packages(self):
+        """
+        Installs the packages listed in the requirements file.
+        """
+        try:
+            self.logger.info("Installing packages...")
+            os.system(f"""start /wait cmd /c "{self.commands["conda_activate_env"]}&{self.commands["package_install"]}" """)
+            self.logger.info("Packages installed.")
+            if self.additional_requirements is not None:
+                self.logger.info("Installing additional packages...")
+                os.system(f"""start /wait cmd /c "{self.commands["conda_activate_env"]}&{self.additional_requirements}" """)
+                self.logger.info("Additional packages installed.")
+        except Exception as error:
+            self.logger.error("Packages could not be installed.")
+            raise error
+
+    def setup_conda_environment(self):
+        """
+        Creates a Conda environment with the given name from the provided environment file.
+        """
+        self.check_if_new_env_exists()
+        if self.new_env_exists:
+            self.logger.info(f'Conda environment {self.new_env_name} already exists.')
+            if self.if_env_exists=='replace':
+                self.logger.info(f'Removing Conda environment {self.new_env_name}...')
+                os.system(f"""start /wait cmd /c "{self.commands["remove_conda_env"]}" """)
+                self.logger.info(f'Conda environment {self.new_env_name} removed.')
+                self.create_conda_environment()
+            elif self.if_env_exists=='interrupt':
+                raise Exception(f'Conda environment {self.new_env_name} already exists.')
+            elif self.if_env_exists=='use_existing':
+                self.logger.info(f'Using existing Conda environment {self.new_env_name}.')
+        self.install_packages()
+
+    def setup_project_files(self):
+        """
+        Copies the project files from the source directory to the target directory.
+        """
+        self.logger.info("Setting up project files...")
+        #if not os.path.exists(self.target_dir):
+        os.makedirs(self.target_dir, exist_ok=True)
+        for item in os.listdir(self.source_dir):
+            s = os.path.join(self.source_dir, item)
+            d = os.path.join(self.target_dir, item)
+            if os.path.isdir(s):
+                shutil.copytree(s, d, dirs_exist_ok=True)
+            else:
+                shutil.copy2(s, d)
+
+        self.logger.info("Project files set up.")
+
+    def init_pre_hook(self):
+        """
+        Method to be run before the main method.
+        """
+        try:
+            self.logger.info("Initializing pre-commit hook...")
+            os.system(f"""start /wait cmd /c "{self.commands["conda_activate_env"]}&{self.commands["init_pre_hook"]}" """)
+            self.logger.info("Pre-commit hook initialized.")
+        except Exception as error:
+            self.logger.error("Pre-commit hook could not be initialized.")
+            raise error
+
+
+    def set_up_new_proyect(self):
+        self.setup_project_files()
+        self.setup_conda_environment()
+        self.init_pre_hook()
+
+def main():
+    import argparse
+    parser = argparse.ArgumentParser(description='Setup a new Python project.')
+    parser.add_argument('--new_env_name', type=str, help='Name of the new Conda environment to be created.')
+    parser.add_argument('--target_dir', type=str, help='Target directory for the new project.')
+    parser.add_argument('--if_env_exists', type=str, default="replace", help='What to do if the Conda environment already exists.')
+    parser.add_argument('--if_dir_exists', type=str, default="replace", help='What to do if the target directory already exists.')
+    parser.add_argument('--additional_requirements', type=str, default=None, help='Additional requirements to be installed.')
+    args = parser.parse_args()
+    ProjectSetupManager(
+        new_env_name=args.new_env_name,
+        target_dir=args.target_dir,
+        if_env_exists=args.if_env_exists,
+        if_dir_exists=args.if_dir_exists,
+        additional_requirements=args.additional_requirements
+    ).set_up_new_proyect()
+
+if __name__=='__main__':
+    main() (duplicate-code)
 utilities\folder_structure.py:1:0: R0801: Similar lines in 2 files
 ==folder_structure:[21:99]
 ==folder_structure:[21:99]
@@ -179,5 +419,5 @@ if __name__=="__main__":
     ) (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.25/10 (previous run: 6.25/10, +0.00)
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
 

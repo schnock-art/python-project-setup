@@ -3,7 +3,7 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from project_setup_manager import \
+from python_project_setup.main import \
     ProjectSetupManager  # Adjust the import according to your file structure
 
 

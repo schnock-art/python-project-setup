@@ -27,4 +27,17 @@ prepare-commit:
 	git add *
 
 create-new-project:
-	python main.py --new_env_name test-env-name --target_dir "C:/Users/jange/Python Scripts/test_new_python_proyect/" --if_env_exists replace 
+	python src/python_project_setup/main.py --new_env_name test-env-name --target_dir "C:/Users/jange/Python Scripts/test_new_python_proyect/" --if_env_exists replace
+
+create-new-projectfrom-package:
+	setup-python-project --new_env_name "test-env-name" --target_dir "C:/Users/jange/Python Scripts/test_new_python_proyect/" --if_env_exists "replace"
+
+build:
+	python -m build
+
+twine-upload-test:
+	python -m twine upload --repository testpypi dist/* --skip-existing
+
+build-and-upload-test:
+	make build
+	make twine-upload-test

@@ -3,25 +3,52 @@
     .pre-commit-config.yaml
     environment.yml
     environment_filtered.yml
-    logging.conf
+    LICENSE
     Makefile
-    project_setup_manager.py
+    pyproject.toml
+    README.md
     requirements.txt
-    __init__.py
-    new_project_files/
-        environment.yml
-        logging.conf
-        main.py
-        Makefile
-        requirements.txt
-        __init__.py
-        utilities/
-            excluded_libraries.txt
-            filter_env.bat
-            folder_structure.py
-            pylint.bat
-            pytest.bat
-            results/
+    build/
+        bdist.win-amd64/
+        lib/
+            python_project_setup/
+                main.py
+                __init__.py
+                new_project_files/
+                    main.py
+                    __init__.py
+                    utilities/
+                        folder_structure.py
+    dist/
+        python_project_setup-0.0.1-py3-none-any.whl
+        python_project_setup-0.0.1.tar.gz
+        python_project_setup-0.0.2-py3-none-any.whl
+        python_project_setup-0.0.2.tar.gz
+    src/
+        python_project_setup/
+            logging.conf
+            main.py
+            __init__.py
+            new_project_files/
+                environment.yml
+                logging.conf
+                main.py
+                Makefile
+                requirements.txt
+                __init__.py
+                utilities/
+                    excluded_libraries.txt
+                    filter_env.bat
+                    folder_structure.py
+                    pylint.bat
+                    pytest.bat
+                    results/
+        python_project_setup.egg-info/
+            dependency_links.txt
+            entry_points.txt
+            PKG-INFO
+            SOURCES.txt
+            top_level.txt
     tests/
         test_project_setup_manager.py
         __init__.py
