@@ -132,12 +132,18 @@ class ProjectSetupManager:
                 os.system(f"""start /wait cmd /c "{self.commands["remove_conda_env"]}" """)
                 self.logger.info(f'Conda environment {self.new_env_name} removed.')
                 self.create_conda_environment()
+                self.check_if_new_env_exists()
+                if not self.new_env_exists:
+                    raise Exception(f'Conda environment {self.new_env_name} could not be created.')
             elif self.if_env_exists=='interrupt':
                 raise Exception(f'Conda environment {self.new_env_name} already exists.')
             elif self.if_env_exists=='use_existing':
                 self.logger.info(f'Using existing Conda environment {self.new_env_name}.')
         else:
             self.create_conda_environment()
+            self.check_if_new_env_exists()
+            if not self.new_env_exists:
+                raise Exception(f'Conda environment {self.new_env_name} could not be created.')
 
         self.install_packages()
 

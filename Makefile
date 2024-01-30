@@ -46,3 +46,6 @@ twine-upload-test:
 build-and-upload-test:
 	make package-build
 	make twine-upload-test
+
+
+python src/python_project_setup/main.py --new_env_name mesa-virtual-justicia --target_dir "C:/Users/jange/Python Scripts/mesa_virtual_justicia/" --if_env_exists replace
