@@ -136,6 +136,9 @@ class ProjectSetupManager:
                 raise Exception(f'Conda environment {self.new_env_name} already exists.')
             elif self.if_env_exists=='use_existing':
                 self.logger.info(f'Using existing Conda environment {self.new_env_name}.')
+        else:
+            self.create_conda_environment()
+
         self.install_packages()
 
     def setup_project_files(self):
